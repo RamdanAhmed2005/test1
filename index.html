@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>إبراهيم الغفير | صرح الحلويات الشرقية</title>
+    
+    <link rel="website icon" type="" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPOPx7r9Efzwg6IC3sgMybez0sKqf-ccZzcQ&s">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3" href="#"><span class="text-warning">أبرهيم</span> الغفير</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="#">الرئيسية</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">قصتنا</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">المنيو</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#offers">العروض</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">الأسئلة</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-warning text-dark ms-lg-3 px-4" href="#contact">اطلب الآن</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="main-hero text-center text-white d-flex align-items-center">
+        <div class="container">
+            <div class="hero-content p-5 rounded-4">
+                <h1 class="display-1 fw-black mb-3">إبراهيم الغفير</h1>
+                <p class="fs-2 mb-4">أصل الحلويات الشرقية بالسمن البلدي 100%</p>
+                <div class="d-flex justify-content-center gap-3">
+                    <a href="#products" class="btn btn-warning btn-lg px-5 shadow">اكتشف المنيو</a>
+                    <a href="#offers" class="btn btn-outline-light btn-lg px-5">عروض اليوم</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-5 bg-white shadow-sm">
+        <div class="container text-center">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <i class="fas fa-medal fa-3x text-warning mb-3"></i>
+                    <h4>جودة ممتازة</h4>
+                    <p class="text-muted">نستخدم أجود أنواع المكسرات والسمن الطبيعي.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-truck-fast fa-3x text-warning mb-3"></i>
+                    <h4>توصيل سريع</h4>
+                    <p class="text-muted">تصلك حلوياتنا طازجة وساخنة في أسرع وقت.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-heart fa-3x text-warning mb-3"></i>
+                    <h4>صنع بحب</h4>
+                    <p class="text-muted">وصفات متوارثة من جيل إلى جيل بكل أمانة.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">قائمة الحلويات</h2>
+                <p class="text-muted">اختر ما يشتهيه قلبك من تشكيلتنا الواسعة</p>
+            </div>
+            <div id="productList" class="row g-4">
+                </div>
+        </div>
+    </section>
+
+    <section id="offers" class="py-5 bg-warning text-dark">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="fw-black display-4">عرض الويك إند!</h2>
+                    <p class="fs-4">اشتري كيلو مشكل واحصل على نصف كيلو بسبوسة هدية.</p>
+                    <button class="btn btn-dark btn-lg px-5 mt-3">اغتنم الفرصة</button>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToUpEFPsmpx_IriOTDAtmBfTOl9L7hLS1zJg&s" alt="عرض خاص" class="img-fluid rounded-pill shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">الأسئلة الشائعة</h2>
+            <div class="accordion shadow-sm" id="faqAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#q1">
+                            هل يوجد توصيل للمحافظات؟
+                        </button>
+                    </h2>
+                    <div id="q1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">نعم، نوفر خدمة الشحن لجميع محافظات مصر بتغليف خاص يحافظ على الجودة.</div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q2">
+                            ما هي أنواع السمن المستخدمة؟
+                        </button>
+                    </h2>
+                    <div id="q2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">نحن نستخدم السمن البلدي الجاموسي والبقري الطبيعي 100% ولا نستخدم الزيوت المهدرجة.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-md-6">
+                    <h3 class="fw-bold mb-4">أرسل لنا طلبك</h3>
+                    <form id="contactForm" class="row g-3">
+                        <div class="col-md-6">
+                            <label class="form-label">الاسم</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label">رقم الهاتف</label>
+                            <input type="tel" class="form-control" required>
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label">نوع الحلوى المطلوبة</label>
+                            <textarea class="form-control" rows="4"></textarea>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-warning w-100 fw-bold py-3">إرسال الطلب عبر واتساب</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h3 class="fw-bold mb-4">موقعنا على الخريطة</h3>
+                    <div class="rounded-4 overflow-hidden shadow-lg h-100">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d27310.372887776877!2d29.846430510839834!3d31.170918600000025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z2KfYqNix2KfZh9mK2YUg2KfZhNi62YHZitix!5e0!3m2!1sen!2seg!4v1772129605612!5m2!1sen!2seg" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-white py-5">
+      <div class="container text-center">
+          <h2 class="fw-bold text-warning mb-4">إبراهيم الغفير</h2>
+          <div class="d-flex justify-content-center gap-4 mb-4 fs-4">
+              <a href="https://www.facebook.com/ebrahimelghfer/?locale=ar_AR" class="text-white"><i class="fab fa-facebook"></i></a>
+              <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="text-white"><i class="fab fa-tiktok"></i></a>
+          </div>
+          <hr class="bg-secondary">
+          
+          <p class="mb-2">© 2026 جميع الحقوق محفوظة لـ <span class="text-warning">إبراهيم الغفير</span></p>
+          
+          <p class="small mb-0 text-secondary">
+              تصميم وتطوير: 
+              <a href="#" class="text-info text-decoration-none fw-bold">رمضان أحمد</a>
+          </p>
+      </div>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js0"></script>
+</body>
+</html>
